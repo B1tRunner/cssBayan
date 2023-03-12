@@ -1,0 +1,78 @@
+
+.accordion{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: lightblue;
+  }
+
+ .heading_title{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+ }
+  
+ 
+
+ .accordion_label {
+    padding: 20px 20px;
+  }
+  
+  .accordion_label {
+    display: block;
+    color: white;;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .accordion_label:hover {
+    color: rgba(256, 0, 0, 0.7);
+  }
+  
+  .accordion_label::after {
+    content: url('staff-snake-solid.svg');
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    width: 2%;
+    height: 3%;
+  }
+  
+  .accordion_content {
+    max-width: px;
+    padding: 2% 2%;
+    text-align: center;
+    background: white;
+    display: none;
+  }
+  
+  .accordion_input {
+    display: none;
+  }
+  
+  .accordion_input:checked ~ .accordion_content,
+  .accordion_input:hover ~ .accordion_content {
+    display: block;
+  }
+  
+  .accordion_input:checked ~ .accordion_label::after {
+    content: url("exclamation-solid.svg");
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    max-width: 1%;
+    height: 1%;
+  }
+
+  img {
+    max-width:  100%;
+    height: auto;
+}
+
+  
+  
