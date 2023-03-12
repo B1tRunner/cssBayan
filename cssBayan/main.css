@@ -24,7 +24,7 @@
   
   .accordion_label {
     display: block;
-    color: #ffffff;
+    color: white;;
     font-weight: bold;
     cursor: pointer;
     position: relative;
@@ -47,7 +47,7 @@
     max-width: px;
     padding: 2% 2%;
     text-align: center;
-    background: #ffffff;
+    background: white;
     display: none;
   }
   
